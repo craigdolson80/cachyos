@@ -1,8 +1,13 @@
 {
-  "currentThemeName": "dynamic",
-  "currentThemeCategory": "dynamic",
-  "customThemeFile": "",
-  "registryThemeVariants": {},
+  "currentThemeName": "custom",
+  "currentThemeCategory": "registry",
+  "customThemeFile": "/home/craig/.config/DankMaterialShell/themes/catppuccin/theme.json",
+  "registryThemeVariants": {
+    "catppuccin": {
+      "flavor": "mocha",
+      "accent": "sky"
+    }
+  },
   "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
@@ -196,8 +201,8 @@
       "cursorHideTimeout": 0
     }
   },
-  "launcherLogoMode": "apps",
-  "launcherLogoCustomPath": "",
+  "launcherLogoMode": "custom",
+  "launcherLogoCustomPath": "/home/craig/Pictures/Arch_Linux__Crystal__icon.svg.png",
   "launcherLogoColorOverride": "",
   "launcherLogoColorInvertOnMode": false,
   "launcherLogoBrightness": 0.5,
@@ -238,9 +243,17 @@
   "launchPrefix": "",
   "brightnessDevicePins": {},
   "wifiNetworkPins": {},
-  "bluetoothDevicePins": {},
+  "bluetoothDevicePins": {
+    "preferredDevice": [
+      "A8:F5:E1:0D:2B:11"
+    ]
+  },
   "audioInputDevicePins": {},
-  "audioOutputDevicePins": {},
+  "audioOutputDevicePins": {
+    "preferredOutput": [
+      "bluez_output.A8_F5_E1_0D_2B_11.1"
+    ]
+  },
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
@@ -302,7 +315,7 @@
   "lockScreenShowProfileImage": true,
   "lockScreenShowPasswordField": true,
   "lockScreenShowMediaPlayer": true,
-  "lockScreenPowerOffMonitorsOnLock": false,
+  "lockScreenPowerOffMonitorsOnLock": true,
   "enableFprint": false,
   "maxFprintTries": 15,
   "lockScreenActiveMonitor": "all",
@@ -358,8 +371,22 @@
   "showOnLastDisplay": {},
   "niriOutputSettings": {},
   "hyprlandOutputSettings": {},
-  "displayProfiles": {},
-  "activeDisplayProfile": {},
+  "displayProfiles": {
+    "niri": {
+      "profile_1773373424244_wryhs2": {
+        "id": "profile_1773373424244_wryhs2",
+        "name": "Wide",
+        "outputSet": [
+          "DP-3"
+        ],
+        "createdAt": 1773373424244,
+        "updatedAt": 1773373424244
+      }
+    }
+  },
+  "activeDisplayProfile": {
+    "niri": "profile_1773373424244_wryhs2"
+  },
   "displayProfileAutoSelect": false,
   "displayShowDisconnected": false,
   "displaySnapToEdge": true,
@@ -404,7 +431,7 @@
       "spacing": 4,
       "innerPadding": 4,
       "bottomGap": 0,
-      "transparency": 1,
+      "transparency": 0.75,
       "widgetTransparency": 1,
       "squareCorners": false,
       "noBackground": false,
@@ -419,7 +446,7 @@
       "widgetOutlineColor": "primary",
       "widgetOutlineOpacity": 1,
       "widgetOutlineThickness": 1,
-      "fontScale": 1,
+      "fontScale": 1.05,
       "autoHide": false,
       "autoHideDelay": 250,
       "showOnWindowsOpen": false,
@@ -509,7 +536,11 @@
   "desktopWidgetGridSettings": {},
   "desktopWidgetInstances": [],
   "desktopWidgetGroups": [],
-  "builtInPluginSettings": {},
+  "builtInPluginSettings": {
+    "dms_settings_search": {
+      "trigger": "?"
+    }
+  },
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],
   "configVersion": 5

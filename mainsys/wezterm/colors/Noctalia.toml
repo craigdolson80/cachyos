@@ -36,7 +36,7 @@ visual_bell = "#15161e"
 17 = "#c0caf5"
 
 [colors.tab_bar]
-background = "#171822"
+background = "#1a1b26"
 inactive_tab_edge = "#283457"
 
 [colors.tab_bar.active_tab]
@@ -48,7 +48,7 @@ strikethrough = false
 underline = "None"
 
 [colors.tab_bar.inactive_tab]
-bg_color = "#181924"
+bg_color = "#1a1b26"
 fg_color = "#c0caf5"
 intensity = "Normal"
 italic = false

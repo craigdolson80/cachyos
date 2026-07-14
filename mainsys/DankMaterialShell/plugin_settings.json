@@ -1,5 +1,8 @@
 {
   "homeAssistantMonitor": {
     "enabled": true
+  },
+  "wallpaperCarousel": {
+    "enabled": true
   }
 }
